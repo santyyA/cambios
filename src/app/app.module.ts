@@ -12,6 +12,8 @@ import { EquipoComponent } from './pages/equipo/equipo.component';
 import { ServicioComponent } from './pages/servicio/servicio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { NotPageFoundComponent } from './pages/not-page-found/not-page-found.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialComponent } from './material/material.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,11 +25,13 @@ import { NotPageFoundComponent } from './pages/not-page-found/not-page-found.com
     EquipoComponent,
     ServicioComponent,
     AboutComponent,
-    NotPageFoundComponent
+    NotPageFoundComponent,
+    MaterialComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
