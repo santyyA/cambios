@@ -1,3 +1,12 @@
+.escudo{
+    text-align: center;
+}
+.subtitulo{
+    margin-bottom: 26px;    
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
 .texto1{
     text-align: center;
 }
@@ -58,7 +67,7 @@
 }
 .tit-azul{
     font-size: 20px;
-    line-height: 26%;
+    line-height:45px;
     margin: 30px 0 20px;
     display: block;
     color: #003492;
